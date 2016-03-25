@@ -9,4 +9,4 @@ build:
     - go get github.com/golang/example/hello
     - go get ./...
     - go build
-	- ./hello
+    - ./hello
