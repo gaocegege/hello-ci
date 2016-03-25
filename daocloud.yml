@@ -1,6 +1,12 @@
 build:
   image: golang:1.5
   environment:
-    - GAOCE=gaocegege
+    - GO15VENDOREXPERIMENT=1
+    - GOOS=linux
+    - GOARCH=amd64
+    - CGO_ENABLED=0
   commands:
-    - echo ${GAOCE}
+    - go get github.com/golang/example/hello
+    - go get ./...
+    - go build
+	- ./hello
