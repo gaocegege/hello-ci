@@ -6,7 +6,5 @@ build:
     - GOARCH=amd64
     - CGO_ENABLED=0
   commands:
-    - go get github.com/golang/example/hello
-    - go get ./...
-    - go build
+    - go build github.com/golang/example/hello
     - ./hello
