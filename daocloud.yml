@@ -3,4 +3,4 @@ build:
   environment:
     - GAOCE=gaocegege
   commands:
-    - echo ${gaocegege}
+    - echo ${GAOCE}
