@@ -7,4 +7,5 @@ build:
     - CGO_ENABLED=0
   commands:
     - echo gaocegege
+    - pwd
     - ls
