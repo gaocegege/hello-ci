@@ -6,6 +6,4 @@ build:
     - GOARCH=amd64
     - CGO_ENABLED=0
   commands:
-    - go build github.com/golang/example/hello
-    - ./hello
-    - echo "hello from gaocegege."
+    - ls
