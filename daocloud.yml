@@ -1,0 +1,5 @@
+image: daocloud/ci-golang:1.5
+
+script:
+  - pwd
+  - go run main.go
