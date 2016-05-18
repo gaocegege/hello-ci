@@ -1,4 +1,8 @@
-build:
+services:
+  mongo:
+    image: mongo
+
+integration:
   image: golang:1.5
   environment:
     - GO15VENDOREXPERIMENT=1
