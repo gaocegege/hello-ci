@@ -1,0 +1,8 @@
+# config/solano.yml
+---
+golang:
+  golang_version: 1.5
+tests:
+  - pwd
+  - ls
+  - go run main.go
