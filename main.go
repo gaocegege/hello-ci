@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, fornax.")
+	fmt.Println("Hello, CI.")
 }
