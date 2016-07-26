@@ -1,4 +1,5 @@
 build:
   image: golang
   commands:
+    - echo $$ENCRYPTED_TOKEN
     - go run main.go
