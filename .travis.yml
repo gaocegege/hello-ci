@@ -1,10 +1,12 @@
 language: go
 
 go:
-  - 1.5
-  - tip
+  - 1.16
 
 go_import_path: github.com/gaocegege/hello-ci
+
+before_script:
+  - go get -t -v ./...
 
 script:
   - pwd
