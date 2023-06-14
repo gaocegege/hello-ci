@@ -2,11 +2,11 @@ language: go
 
 go:
   - 1.5
-  - tip
 
-go_import_path: github.com/gaocegege/hello-ci
-
-script:
+before_script:
   - pwd
   - ls
-  - go run main.go
+
+script:
+  - go build
+  - go test
